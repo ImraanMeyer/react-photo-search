@@ -11,15 +11,13 @@ const ImageCard = ({ image, index }) => {
 		likes: [likes, 'fas fa-thumbs-up']
 	};
 
-	console.log(index)
-
 	return (
-		<div className={`h-full relative rounded-lg overflow-hidden relative shadow-lg hover:shadow-2xl transion-all duration-200 card`}>
+		<div className={"relative h-auto rounded-lg overflow-hidden relative shadow-lg hover:shadow-2xl transion-all duration-200 card"}>
 			<img src={webformatURL} alt={tags} className="h-full w-full card-image object-cover"  />
 
-			<div className="absolute px-6 p-4  bottom-0 w-full h-full bg-gray-400 opacity-0 hover:opacity-75 transition-all duration-200">
-				<div className="grid grid-cols-1 grid-rows-3 h-full">
-					<div className="flex items-center flex-col  font-bold text-xl mb-2 flex items-center">
+			<div className="absolute px-6 p-4 bottom-0 w-full h-full bg-gray-100 opacity-0 hover:opacity-75 transition-all duration-200">
+				<div className="grid grid-cols-1 grid-rows-3" style={{placeContent: 'center'}}>
+					<div className="flex items-center flex-col font-bold mb-2 flex items-center">
 						{userImageURL === '' ? (
 							<span className="border-solid border-2 border-teal-500 rounded-full h-8 w-8 flex items-center justify-center">
 								{user[0].toUpperCase()}
@@ -35,7 +33,7 @@ const ImageCard = ({ image, index }) => {
 							Photo by <strong className="text-teal-600">{user}</strong>
 						</h5>
 					</div>
-					<ul className="grid grid-cols-3 w-full px-2">
+					<ul className="grid grid-cols-3 w-full px-2 mt-4">
 					{Object.values(icons).map(icon => (				
 							<li className="text-teal-600 flex flex-col items-center justify-center">
 								<i className={icon[1]} />

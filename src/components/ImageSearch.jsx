@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 
-const ImageSearch = ({ searchText, searchCategory }) => {
+const ImageSearch = ({ searchArguments}) => {
 	const [ text, setText ] = useState('');
+	const [ cat, setCat ] = useState('');
 
 	const onSubmit = (e) => {
 		e.preventDefault();
-        searchText(text);
+        searchArguments(text, cat)
 	};
 
 	const categories = [
@@ -39,7 +40,7 @@ const ImageSearch = ({ searchText, searchCategory }) => {
 						type="text"
 						placeholder="Search Images..."
 						className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-						onChange={(e) => setText(e.target.value)}
+						onChange={(e) => setText(e.currentTarget.value)}
 					/>
 
 					<button
@@ -56,7 +57,7 @@ const ImageSearch = ({ searchText, searchCategory }) => {
 							key={index}
                             className="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm text-gray-700 m-1 focus:outline-none flex-1 hover:bg-gray-400 hover:border-teal-400 transition-all duration-150  focus:bg-teal-500 focus:text-white"
                             
-                            onClick={e => searchCategory(e.currentTarget.innerHTML)}
+                            onClick={e => setCat(e.currentTarget.innerHTML)}
 						>
 							{category}
 						</button>

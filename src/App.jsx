@@ -31,8 +31,7 @@ const App = () => {
 			<div className="antialiased bg-gray-100 p-8 font-default min-h-screen">
 				<div className="container mx-auto">
 					<ImageSearch
-						searchText={(text) => setValues({ ...values, term: text })}
-						searchCategory={(text) => setValues({ ...values, category: text, isLoading: true })}
+						searchArguments={(text, cat) => setValues({ ...values, term: text, category: cat })}
 					/>
 
 					{!isLoading &&
@@ -41,7 +40,7 @@ const App = () => {
 					{isLoading ? (
 						<h1 className="text-6xl text-center mx-auto mt-32">Loading ...</h1>
 					) : (
-						<div className="grid px-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-2">
+						<div className="grid px-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
 							{images.map((image, index) => <ImageCard key={image.id} index={index} image={image} />)}
 						</div>
 					)}

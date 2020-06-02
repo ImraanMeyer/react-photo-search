@@ -1,5 +1,5 @@
 .card:hover .card-image {
-    opacity: 0.25em;
+    opacity: 0.15em;
     filter: blur(5px);
 }
 
