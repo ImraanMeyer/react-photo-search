@@ -231,7 +231,7 @@ module.exports = {
       default: '1',
     },
     fontFamily: {
-      poppins: 'Poppins',
+      default: ['Nunito', 'sans-serif'],
       sans: [
         'system-ui',
         '-apple-system',
@@ -705,7 +705,7 @@ module.exports = {
     gap: ['responsive'],
     gridAutoFlow: ['responsive'],
     gridTemplateColumns: ['responsive'],
-    gridColumn: ['responsive'],
+    gridColumn: ['responsive', 'first', 'last', 'even', 'odd'],
     gridColumnStart: ['responsive'],
     gridColumnEnd: ['responsive'],
     gridTemplateRows: ['responsive'],

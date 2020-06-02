@@ -542,7 +542,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /**
@@ -6036,8 +6036,20 @@ video {
   clear: none;
 }
 
-.font-poppins {
-  font-family: Poppins;
+.font-default {
+  font-family: Nunito, sans-serif;
+}
+
+.font-sans {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-serif {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-mono {
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .font-hairline {
@@ -12315,6 +12327,214 @@ video {
 }
 
 .col-span-12 {
+  grid-column: span 12 / span 12;
+}
+
+.first\:col-auto:first-child {
+  grid-column: auto;
+}
+
+.first\:col-span-1:first-child {
+  grid-column: span 1 / span 1;
+}
+
+.first\:col-span-2:first-child {
+  grid-column: span 2 / span 2;
+}
+
+.first\:col-span-3:first-child {
+  grid-column: span 3 / span 3;
+}
+
+.first\:col-span-4:first-child {
+  grid-column: span 4 / span 4;
+}
+
+.first\:col-span-5:first-child {
+  grid-column: span 5 / span 5;
+}
+
+.first\:col-span-6:first-child {
+  grid-column: span 6 / span 6;
+}
+
+.first\:col-span-7:first-child {
+  grid-column: span 7 / span 7;
+}
+
+.first\:col-span-8:first-child {
+  grid-column: span 8 / span 8;
+}
+
+.first\:col-span-9:first-child {
+  grid-column: span 9 / span 9;
+}
+
+.first\:col-span-10:first-child {
+  grid-column: span 10 / span 10;
+}
+
+.first\:col-span-11:first-child {
+  grid-column: span 11 / span 11;
+}
+
+.first\:col-span-12:first-child {
+  grid-column: span 12 / span 12;
+}
+
+.last\:col-auto:last-child {
+  grid-column: auto;
+}
+
+.last\:col-span-1:last-child {
+  grid-column: span 1 / span 1;
+}
+
+.last\:col-span-2:last-child {
+  grid-column: span 2 / span 2;
+}
+
+.last\:col-span-3:last-child {
+  grid-column: span 3 / span 3;
+}
+
+.last\:col-span-4:last-child {
+  grid-column: span 4 / span 4;
+}
+
+.last\:col-span-5:last-child {
+  grid-column: span 5 / span 5;
+}
+
+.last\:col-span-6:last-child {
+  grid-column: span 6 / span 6;
+}
+
+.last\:col-span-7:last-child {
+  grid-column: span 7 / span 7;
+}
+
+.last\:col-span-8:last-child {
+  grid-column: span 8 / span 8;
+}
+
+.last\:col-span-9:last-child {
+  grid-column: span 9 / span 9;
+}
+
+.last\:col-span-10:last-child {
+  grid-column: span 10 / span 10;
+}
+
+.last\:col-span-11:last-child {
+  grid-column: span 11 / span 11;
+}
+
+.last\:col-span-12:last-child {
+  grid-column: span 12 / span 12;
+}
+
+.even\:col-auto:nth-child(even) {
+  grid-column: auto;
+}
+
+.even\:col-span-1:nth-child(even) {
+  grid-column: span 1 / span 1;
+}
+
+.even\:col-span-2:nth-child(even) {
+  grid-column: span 2 / span 2;
+}
+
+.even\:col-span-3:nth-child(even) {
+  grid-column: span 3 / span 3;
+}
+
+.even\:col-span-4:nth-child(even) {
+  grid-column: span 4 / span 4;
+}
+
+.even\:col-span-5:nth-child(even) {
+  grid-column: span 5 / span 5;
+}
+
+.even\:col-span-6:nth-child(even) {
+  grid-column: span 6 / span 6;
+}
+
+.even\:col-span-7:nth-child(even) {
+  grid-column: span 7 / span 7;
+}
+
+.even\:col-span-8:nth-child(even) {
+  grid-column: span 8 / span 8;
+}
+
+.even\:col-span-9:nth-child(even) {
+  grid-column: span 9 / span 9;
+}
+
+.even\:col-span-10:nth-child(even) {
+  grid-column: span 10 / span 10;
+}
+
+.even\:col-span-11:nth-child(even) {
+  grid-column: span 11 / span 11;
+}
+
+.even\:col-span-12:nth-child(even) {
+  grid-column: span 12 / span 12;
+}
+
+.odd\:col-auto:nth-child(odd) {
+  grid-column: auto;
+}
+
+.odd\:col-span-1:nth-child(odd) {
+  grid-column: span 1 / span 1;
+}
+
+.odd\:col-span-2:nth-child(odd) {
+  grid-column: span 2 / span 2;
+}
+
+.odd\:col-span-3:nth-child(odd) {
+  grid-column: span 3 / span 3;
+}
+
+.odd\:col-span-4:nth-child(odd) {
+  grid-column: span 4 / span 4;
+}
+
+.odd\:col-span-5:nth-child(odd) {
+  grid-column: span 5 / span 5;
+}
+
+.odd\:col-span-6:nth-child(odd) {
+  grid-column: span 6 / span 6;
+}
+
+.odd\:col-span-7:nth-child(odd) {
+  grid-column: span 7 / span 7;
+}
+
+.odd\:col-span-8:nth-child(odd) {
+  grid-column: span 8 / span 8;
+}
+
+.odd\:col-span-9:nth-child(odd) {
+  grid-column: span 9 / span 9;
+}
+
+.odd\:col-span-10:nth-child(odd) {
+  grid-column: span 10 / span 10;
+}
+
+.odd\:col-span-11:nth-child(odd) {
+  grid-column: span 11 / span 11;
+}
+
+.odd\:col-span-12:nth-child(odd) {
   grid-column: span 12 / span 12;
 }
 
@@ -19766,8 +19986,20 @@ video {
     clear: none;
   }
 
-  .sm\:font-poppins {
-    font-family: Poppins;
+  .sm\:font-default {
+    font-family: Nunito, sans-serif;
+  }
+
+  .sm\:font-sans {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .sm\:font-serif {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+
+  .sm\:font-mono {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .sm\:font-hairline {
@@ -26045,6 +26277,214 @@ video {
   }
 
   .sm\:col-span-12 {
+    grid-column: span 12 / span 12;
+  }
+
+  .sm\:first\:col-auto:first-child {
+    grid-column: auto;
+  }
+
+  .sm\:first\:col-span-1:first-child {
+    grid-column: span 1 / span 1;
+  }
+
+  .sm\:first\:col-span-2:first-child {
+    grid-column: span 2 / span 2;
+  }
+
+  .sm\:first\:col-span-3:first-child {
+    grid-column: span 3 / span 3;
+  }
+
+  .sm\:first\:col-span-4:first-child {
+    grid-column: span 4 / span 4;
+  }
+
+  .sm\:first\:col-span-5:first-child {
+    grid-column: span 5 / span 5;
+  }
+
+  .sm\:first\:col-span-6:first-child {
+    grid-column: span 6 / span 6;
+  }
+
+  .sm\:first\:col-span-7:first-child {
+    grid-column: span 7 / span 7;
+  }
+
+  .sm\:first\:col-span-8:first-child {
+    grid-column: span 8 / span 8;
+  }
+
+  .sm\:first\:col-span-9:first-child {
+    grid-column: span 9 / span 9;
+  }
+
+  .sm\:first\:col-span-10:first-child {
+    grid-column: span 10 / span 10;
+  }
+
+  .sm\:first\:col-span-11:first-child {
+    grid-column: span 11 / span 11;
+  }
+
+  .sm\:first\:col-span-12:first-child {
+    grid-column: span 12 / span 12;
+  }
+
+  .sm\:last\:col-auto:last-child {
+    grid-column: auto;
+  }
+
+  .sm\:last\:col-span-1:last-child {
+    grid-column: span 1 / span 1;
+  }
+
+  .sm\:last\:col-span-2:last-child {
+    grid-column: span 2 / span 2;
+  }
+
+  .sm\:last\:col-span-3:last-child {
+    grid-column: span 3 / span 3;
+  }
+
+  .sm\:last\:col-span-4:last-child {
+    grid-column: span 4 / span 4;
+  }
+
+  .sm\:last\:col-span-5:last-child {
+    grid-column: span 5 / span 5;
+  }
+
+  .sm\:last\:col-span-6:last-child {
+    grid-column: span 6 / span 6;
+  }
+
+  .sm\:last\:col-span-7:last-child {
+    grid-column: span 7 / span 7;
+  }
+
+  .sm\:last\:col-span-8:last-child {
+    grid-column: span 8 / span 8;
+  }
+
+  .sm\:last\:col-span-9:last-child {
+    grid-column: span 9 / span 9;
+  }
+
+  .sm\:last\:col-span-10:last-child {
+    grid-column: span 10 / span 10;
+  }
+
+  .sm\:last\:col-span-11:last-child {
+    grid-column: span 11 / span 11;
+  }
+
+  .sm\:last\:col-span-12:last-child {
+    grid-column: span 12 / span 12;
+  }
+
+  .sm\:even\:col-auto:nth-child(even) {
+    grid-column: auto;
+  }
+
+  .sm\:even\:col-span-1:nth-child(even) {
+    grid-column: span 1 / span 1;
+  }
+
+  .sm\:even\:col-span-2:nth-child(even) {
+    grid-column: span 2 / span 2;
+  }
+
+  .sm\:even\:col-span-3:nth-child(even) {
+    grid-column: span 3 / span 3;
+  }
+
+  .sm\:even\:col-span-4:nth-child(even) {
+    grid-column: span 4 / span 4;
+  }
+
+  .sm\:even\:col-span-5:nth-child(even) {
+    grid-column: span 5 / span 5;
+  }
+
+  .sm\:even\:col-span-6:nth-child(even) {
+    grid-column: span 6 / span 6;
+  }
+
+  .sm\:even\:col-span-7:nth-child(even) {
+    grid-column: span 7 / span 7;
+  }
+
+  .sm\:even\:col-span-8:nth-child(even) {
+    grid-column: span 8 / span 8;
+  }
+
+  .sm\:even\:col-span-9:nth-child(even) {
+    grid-column: span 9 / span 9;
+  }
+
+  .sm\:even\:col-span-10:nth-child(even) {
+    grid-column: span 10 / span 10;
+  }
+
+  .sm\:even\:col-span-11:nth-child(even) {
+    grid-column: span 11 / span 11;
+  }
+
+  .sm\:even\:col-span-12:nth-child(even) {
+    grid-column: span 12 / span 12;
+  }
+
+  .sm\:odd\:col-auto:nth-child(odd) {
+    grid-column: auto;
+  }
+
+  .sm\:odd\:col-span-1:nth-child(odd) {
+    grid-column: span 1 / span 1;
+  }
+
+  .sm\:odd\:col-span-2:nth-child(odd) {
+    grid-column: span 2 / span 2;
+  }
+
+  .sm\:odd\:col-span-3:nth-child(odd) {
+    grid-column: span 3 / span 3;
+  }
+
+  .sm\:odd\:col-span-4:nth-child(odd) {
+    grid-column: span 4 / span 4;
+  }
+
+  .sm\:odd\:col-span-5:nth-child(odd) {
+    grid-column: span 5 / span 5;
+  }
+
+  .sm\:odd\:col-span-6:nth-child(odd) {
+    grid-column: span 6 / span 6;
+  }
+
+  .sm\:odd\:col-span-7:nth-child(odd) {
+    grid-column: span 7 / span 7;
+  }
+
+  .sm\:odd\:col-span-8:nth-child(odd) {
+    grid-column: span 8 / span 8;
+  }
+
+  .sm\:odd\:col-span-9:nth-child(odd) {
+    grid-column: span 9 / span 9;
+  }
+
+  .sm\:odd\:col-span-10:nth-child(odd) {
+    grid-column: span 10 / span 10;
+  }
+
+  .sm\:odd\:col-span-11:nth-child(odd) {
+    grid-column: span 11 / span 11;
+  }
+
+  .sm\:odd\:col-span-12:nth-child(odd) {
     grid-column: span 12 / span 12;
   }
 
@@ -33497,8 +33937,20 @@ video {
     clear: none;
   }
 
-  .md\:font-poppins {
-    font-family: Poppins;
+  .md\:font-default {
+    font-family: Nunito, sans-serif;
+  }
+
+  .md\:font-sans {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .md\:font-serif {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+
+  .md\:font-mono {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .md\:font-hairline {
@@ -39776,6 +40228,214 @@ video {
   }
 
   .md\:col-span-12 {
+    grid-column: span 12 / span 12;
+  }
+
+  .md\:first\:col-auto:first-child {
+    grid-column: auto;
+  }
+
+  .md\:first\:col-span-1:first-child {
+    grid-column: span 1 / span 1;
+  }
+
+  .md\:first\:col-span-2:first-child {
+    grid-column: span 2 / span 2;
+  }
+
+  .md\:first\:col-span-3:first-child {
+    grid-column: span 3 / span 3;
+  }
+
+  .md\:first\:col-span-4:first-child {
+    grid-column: span 4 / span 4;
+  }
+
+  .md\:first\:col-span-5:first-child {
+    grid-column: span 5 / span 5;
+  }
+
+  .md\:first\:col-span-6:first-child {
+    grid-column: span 6 / span 6;
+  }
+
+  .md\:first\:col-span-7:first-child {
+    grid-column: span 7 / span 7;
+  }
+
+  .md\:first\:col-span-8:first-child {
+    grid-column: span 8 / span 8;
+  }
+
+  .md\:first\:col-span-9:first-child {
+    grid-column: span 9 / span 9;
+  }
+
+  .md\:first\:col-span-10:first-child {
+    grid-column: span 10 / span 10;
+  }
+
+  .md\:first\:col-span-11:first-child {
+    grid-column: span 11 / span 11;
+  }
+
+  .md\:first\:col-span-12:first-child {
+    grid-column: span 12 / span 12;
+  }
+
+  .md\:last\:col-auto:last-child {
+    grid-column: auto;
+  }
+
+  .md\:last\:col-span-1:last-child {
+    grid-column: span 1 / span 1;
+  }
+
+  .md\:last\:col-span-2:last-child {
+    grid-column: span 2 / span 2;
+  }
+
+  .md\:last\:col-span-3:last-child {
+    grid-column: span 3 / span 3;
+  }
+
+  .md\:last\:col-span-4:last-child {
+    grid-column: span 4 / span 4;
+  }
+
+  .md\:last\:col-span-5:last-child {
+    grid-column: span 5 / span 5;
+  }
+
+  .md\:last\:col-span-6:last-child {
+    grid-column: span 6 / span 6;
+  }
+
+  .md\:last\:col-span-7:last-child {
+    grid-column: span 7 / span 7;
+  }
+
+  .md\:last\:col-span-8:last-child {
+    grid-column: span 8 / span 8;
+  }
+
+  .md\:last\:col-span-9:last-child {
+    grid-column: span 9 / span 9;
+  }
+
+  .md\:last\:col-span-10:last-child {
+    grid-column: span 10 / span 10;
+  }
+
+  .md\:last\:col-span-11:last-child {
+    grid-column: span 11 / span 11;
+  }
+
+  .md\:last\:col-span-12:last-child {
+    grid-column: span 12 / span 12;
+  }
+
+  .md\:even\:col-auto:nth-child(even) {
+    grid-column: auto;
+  }
+
+  .md\:even\:col-span-1:nth-child(even) {
+    grid-column: span 1 / span 1;
+  }
+
+  .md\:even\:col-span-2:nth-child(even) {
+    grid-column: span 2 / span 2;
+  }
+
+  .md\:even\:col-span-3:nth-child(even) {
+    grid-column: span 3 / span 3;
+  }
+
+  .md\:even\:col-span-4:nth-child(even) {
+    grid-column: span 4 / span 4;
+  }
+
+  .md\:even\:col-span-5:nth-child(even) {
+    grid-column: span 5 / span 5;
+  }
+
+  .md\:even\:col-span-6:nth-child(even) {
+    grid-column: span 6 / span 6;
+  }
+
+  .md\:even\:col-span-7:nth-child(even) {
+    grid-column: span 7 / span 7;
+  }
+
+  .md\:even\:col-span-8:nth-child(even) {
+    grid-column: span 8 / span 8;
+  }
+
+  .md\:even\:col-span-9:nth-child(even) {
+    grid-column: span 9 / span 9;
+  }
+
+  .md\:even\:col-span-10:nth-child(even) {
+    grid-column: span 10 / span 10;
+  }
+
+  .md\:even\:col-span-11:nth-child(even) {
+    grid-column: span 11 / span 11;
+  }
+
+  .md\:even\:col-span-12:nth-child(even) {
+    grid-column: span 12 / span 12;
+  }
+
+  .md\:odd\:col-auto:nth-child(odd) {
+    grid-column: auto;
+  }
+
+  .md\:odd\:col-span-1:nth-child(odd) {
+    grid-column: span 1 / span 1;
+  }
+
+  .md\:odd\:col-span-2:nth-child(odd) {
+    grid-column: span 2 / span 2;
+  }
+
+  .md\:odd\:col-span-3:nth-child(odd) {
+    grid-column: span 3 / span 3;
+  }
+
+  .md\:odd\:col-span-4:nth-child(odd) {
+    grid-column: span 4 / span 4;
+  }
+
+  .md\:odd\:col-span-5:nth-child(odd) {
+    grid-column: span 5 / span 5;
+  }
+
+  .md\:odd\:col-span-6:nth-child(odd) {
+    grid-column: span 6 / span 6;
+  }
+
+  .md\:odd\:col-span-7:nth-child(odd) {
+    grid-column: span 7 / span 7;
+  }
+
+  .md\:odd\:col-span-8:nth-child(odd) {
+    grid-column: span 8 / span 8;
+  }
+
+  .md\:odd\:col-span-9:nth-child(odd) {
+    grid-column: span 9 / span 9;
+  }
+
+  .md\:odd\:col-span-10:nth-child(odd) {
+    grid-column: span 10 / span 10;
+  }
+
+  .md\:odd\:col-span-11:nth-child(odd) {
+    grid-column: span 11 / span 11;
+  }
+
+  .md\:odd\:col-span-12:nth-child(odd) {
     grid-column: span 12 / span 12;
   }
 
@@ -47228,8 +47888,20 @@ video {
     clear: none;
   }
 
-  .lg\:font-poppins {
-    font-family: Poppins;
+  .lg\:font-default {
+    font-family: Nunito, sans-serif;
+  }
+
+  .lg\:font-sans {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .lg\:font-serif {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+
+  .lg\:font-mono {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .lg\:font-hairline {
@@ -53507,6 +54179,214 @@ video {
   }
 
   .lg\:col-span-12 {
+    grid-column: span 12 / span 12;
+  }
+
+  .lg\:first\:col-auto:first-child {
+    grid-column: auto;
+  }
+
+  .lg\:first\:col-span-1:first-child {
+    grid-column: span 1 / span 1;
+  }
+
+  .lg\:first\:col-span-2:first-child {
+    grid-column: span 2 / span 2;
+  }
+
+  .lg\:first\:col-span-3:first-child {
+    grid-column: span 3 / span 3;
+  }
+
+  .lg\:first\:col-span-4:first-child {
+    grid-column: span 4 / span 4;
+  }
+
+  .lg\:first\:col-span-5:first-child {
+    grid-column: span 5 / span 5;
+  }
+
+  .lg\:first\:col-span-6:first-child {
+    grid-column: span 6 / span 6;
+  }
+
+  .lg\:first\:col-span-7:first-child {
+    grid-column: span 7 / span 7;
+  }
+
+  .lg\:first\:col-span-8:first-child {
+    grid-column: span 8 / span 8;
+  }
+
+  .lg\:first\:col-span-9:first-child {
+    grid-column: span 9 / span 9;
+  }
+
+  .lg\:first\:col-span-10:first-child {
+    grid-column: span 10 / span 10;
+  }
+
+  .lg\:first\:col-span-11:first-child {
+    grid-column: span 11 / span 11;
+  }
+
+  .lg\:first\:col-span-12:first-child {
+    grid-column: span 12 / span 12;
+  }
+
+  .lg\:last\:col-auto:last-child {
+    grid-column: auto;
+  }
+
+  .lg\:last\:col-span-1:last-child {
+    grid-column: span 1 / span 1;
+  }
+
+  .lg\:last\:col-span-2:last-child {
+    grid-column: span 2 / span 2;
+  }
+
+  .lg\:last\:col-span-3:last-child {
+    grid-column: span 3 / span 3;
+  }
+
+  .lg\:last\:col-span-4:last-child {
+    grid-column: span 4 / span 4;
+  }
+
+  .lg\:last\:col-span-5:last-child {
+    grid-column: span 5 / span 5;
+  }
+
+  .lg\:last\:col-span-6:last-child {
+    grid-column: span 6 / span 6;
+  }
+
+  .lg\:last\:col-span-7:last-child {
+    grid-column: span 7 / span 7;
+  }
+
+  .lg\:last\:col-span-8:last-child {
+    grid-column: span 8 / span 8;
+  }
+
+  .lg\:last\:col-span-9:last-child {
+    grid-column: span 9 / span 9;
+  }
+
+  .lg\:last\:col-span-10:last-child {
+    grid-column: span 10 / span 10;
+  }
+
+  .lg\:last\:col-span-11:last-child {
+    grid-column: span 11 / span 11;
+  }
+
+  .lg\:last\:col-span-12:last-child {
+    grid-column: span 12 / span 12;
+  }
+
+  .lg\:even\:col-auto:nth-child(even) {
+    grid-column: auto;
+  }
+
+  .lg\:even\:col-span-1:nth-child(even) {
+    grid-column: span 1 / span 1;
+  }
+
+  .lg\:even\:col-span-2:nth-child(even) {
+    grid-column: span 2 / span 2;
+  }
+
+  .lg\:even\:col-span-3:nth-child(even) {
+    grid-column: span 3 / span 3;
+  }
+
+  .lg\:even\:col-span-4:nth-child(even) {
+    grid-column: span 4 / span 4;
+  }
+
+  .lg\:even\:col-span-5:nth-child(even) {
+    grid-column: span 5 / span 5;
+  }
+
+  .lg\:even\:col-span-6:nth-child(even) {
+    grid-column: span 6 / span 6;
+  }
+
+  .lg\:even\:col-span-7:nth-child(even) {
+    grid-column: span 7 / span 7;
+  }
+
+  .lg\:even\:col-span-8:nth-child(even) {
+    grid-column: span 8 / span 8;
+  }
+
+  .lg\:even\:col-span-9:nth-child(even) {
+    grid-column: span 9 / span 9;
+  }
+
+  .lg\:even\:col-span-10:nth-child(even) {
+    grid-column: span 10 / span 10;
+  }
+
+  .lg\:even\:col-span-11:nth-child(even) {
+    grid-column: span 11 / span 11;
+  }
+
+  .lg\:even\:col-span-12:nth-child(even) {
+    grid-column: span 12 / span 12;
+  }
+
+  .lg\:odd\:col-auto:nth-child(odd) {
+    grid-column: auto;
+  }
+
+  .lg\:odd\:col-span-1:nth-child(odd) {
+    grid-column: span 1 / span 1;
+  }
+
+  .lg\:odd\:col-span-2:nth-child(odd) {
+    grid-column: span 2 / span 2;
+  }
+
+  .lg\:odd\:col-span-3:nth-child(odd) {
+    grid-column: span 3 / span 3;
+  }
+
+  .lg\:odd\:col-span-4:nth-child(odd) {
+    grid-column: span 4 / span 4;
+  }
+
+  .lg\:odd\:col-span-5:nth-child(odd) {
+    grid-column: span 5 / span 5;
+  }
+
+  .lg\:odd\:col-span-6:nth-child(odd) {
+    grid-column: span 6 / span 6;
+  }
+
+  .lg\:odd\:col-span-7:nth-child(odd) {
+    grid-column: span 7 / span 7;
+  }
+
+  .lg\:odd\:col-span-8:nth-child(odd) {
+    grid-column: span 8 / span 8;
+  }
+
+  .lg\:odd\:col-span-9:nth-child(odd) {
+    grid-column: span 9 / span 9;
+  }
+
+  .lg\:odd\:col-span-10:nth-child(odd) {
+    grid-column: span 10 / span 10;
+  }
+
+  .lg\:odd\:col-span-11:nth-child(odd) {
+    grid-column: span 11 / span 11;
+  }
+
+  .lg\:odd\:col-span-12:nth-child(odd) {
     grid-column: span 12 / span 12;
   }
 
@@ -60959,8 +61839,20 @@ video {
     clear: none;
   }
 
-  .xl\:font-poppins {
-    font-family: Poppins;
+  .xl\:font-default {
+    font-family: Nunito, sans-serif;
+  }
+
+  .xl\:font-sans {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .xl\:font-serif {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+
+  .xl\:font-mono {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .xl\:font-hairline {
@@ -67238,6 +68130,214 @@ video {
   }
 
   .xl\:col-span-12 {
+    grid-column: span 12 / span 12;
+  }
+
+  .xl\:first\:col-auto:first-child {
+    grid-column: auto;
+  }
+
+  .xl\:first\:col-span-1:first-child {
+    grid-column: span 1 / span 1;
+  }
+
+  .xl\:first\:col-span-2:first-child {
+    grid-column: span 2 / span 2;
+  }
+
+  .xl\:first\:col-span-3:first-child {
+    grid-column: span 3 / span 3;
+  }
+
+  .xl\:first\:col-span-4:first-child {
+    grid-column: span 4 / span 4;
+  }
+
+  .xl\:first\:col-span-5:first-child {
+    grid-column: span 5 / span 5;
+  }
+
+  .xl\:first\:col-span-6:first-child {
+    grid-column: span 6 / span 6;
+  }
+
+  .xl\:first\:col-span-7:first-child {
+    grid-column: span 7 / span 7;
+  }
+
+  .xl\:first\:col-span-8:first-child {
+    grid-column: span 8 / span 8;
+  }
+
+  .xl\:first\:col-span-9:first-child {
+    grid-column: span 9 / span 9;
+  }
+
+  .xl\:first\:col-span-10:first-child {
+    grid-column: span 10 / span 10;
+  }
+
+  .xl\:first\:col-span-11:first-child {
+    grid-column: span 11 / span 11;
+  }
+
+  .xl\:first\:col-span-12:first-child {
+    grid-column: span 12 / span 12;
+  }
+
+  .xl\:last\:col-auto:last-child {
+    grid-column: auto;
+  }
+
+  .xl\:last\:col-span-1:last-child {
+    grid-column: span 1 / span 1;
+  }
+
+  .xl\:last\:col-span-2:last-child {
+    grid-column: span 2 / span 2;
+  }
+
+  .xl\:last\:col-span-3:last-child {
+    grid-column: span 3 / span 3;
+  }
+
+  .xl\:last\:col-span-4:last-child {
+    grid-column: span 4 / span 4;
+  }
+
+  .xl\:last\:col-span-5:last-child {
+    grid-column: span 5 / span 5;
+  }
+
+  .xl\:last\:col-span-6:last-child {
+    grid-column: span 6 / span 6;
+  }
+
+  .xl\:last\:col-span-7:last-child {
+    grid-column: span 7 / span 7;
+  }
+
+  .xl\:last\:col-span-8:last-child {
+    grid-column: span 8 / span 8;
+  }
+
+  .xl\:last\:col-span-9:last-child {
+    grid-column: span 9 / span 9;
+  }
+
+  .xl\:last\:col-span-10:last-child {
+    grid-column: span 10 / span 10;
+  }
+
+  .xl\:last\:col-span-11:last-child {
+    grid-column: span 11 / span 11;
+  }
+
+  .xl\:last\:col-span-12:last-child {
+    grid-column: span 12 / span 12;
+  }
+
+  .xl\:even\:col-auto:nth-child(even) {
+    grid-column: auto;
+  }
+
+  .xl\:even\:col-span-1:nth-child(even) {
+    grid-column: span 1 / span 1;
+  }
+
+  .xl\:even\:col-span-2:nth-child(even) {
+    grid-column: span 2 / span 2;
+  }
+
+  .xl\:even\:col-span-3:nth-child(even) {
+    grid-column: span 3 / span 3;
+  }
+
+  .xl\:even\:col-span-4:nth-child(even) {
+    grid-column: span 4 / span 4;
+  }
+
+  .xl\:even\:col-span-5:nth-child(even) {
+    grid-column: span 5 / span 5;
+  }
+
+  .xl\:even\:col-span-6:nth-child(even) {
+    grid-column: span 6 / span 6;
+  }
+
+  .xl\:even\:col-span-7:nth-child(even) {
+    grid-column: span 7 / span 7;
+  }
+
+  .xl\:even\:col-span-8:nth-child(even) {
+    grid-column: span 8 / span 8;
+  }
+
+  .xl\:even\:col-span-9:nth-child(even) {
+    grid-column: span 9 / span 9;
+  }
+
+  .xl\:even\:col-span-10:nth-child(even) {
+    grid-column: span 10 / span 10;
+  }
+
+  .xl\:even\:col-span-11:nth-child(even) {
+    grid-column: span 11 / span 11;
+  }
+
+  .xl\:even\:col-span-12:nth-child(even) {
+    grid-column: span 12 / span 12;
+  }
+
+  .xl\:odd\:col-auto:nth-child(odd) {
+    grid-column: auto;
+  }
+
+  .xl\:odd\:col-span-1:nth-child(odd) {
+    grid-column: span 1 / span 1;
+  }
+
+  .xl\:odd\:col-span-2:nth-child(odd) {
+    grid-column: span 2 / span 2;
+  }
+
+  .xl\:odd\:col-span-3:nth-child(odd) {
+    grid-column: span 3 / span 3;
+  }
+
+  .xl\:odd\:col-span-4:nth-child(odd) {
+    grid-column: span 4 / span 4;
+  }
+
+  .xl\:odd\:col-span-5:nth-child(odd) {
+    grid-column: span 5 / span 5;
+  }
+
+  .xl\:odd\:col-span-6:nth-child(odd) {
+    grid-column: span 6 / span 6;
+  }
+
+  .xl\:odd\:col-span-7:nth-child(odd) {
+    grid-column: span 7 / span 7;
+  }
+
+  .xl\:odd\:col-span-8:nth-child(odd) {
+    grid-column: span 8 / span 8;
+  }
+
+  .xl\:odd\:col-span-9:nth-child(odd) {
+    grid-column: span 9 / span 9;
+  }
+
+  .xl\:odd\:col-span-10:nth-child(odd) {
+    grid-column: span 10 / span 10;
+  }
+
+  .xl\:odd\:col-span-11:nth-child(odd) {
+    grid-column: span 11 / span 11;
+  }
+
+  .xl\:odd\:col-span-12:nth-child(odd) {
     grid-column: span 12 / span 12;
   }
 

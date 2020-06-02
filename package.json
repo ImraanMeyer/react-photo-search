@@ -8,13 +8,17 @@
     "@testing-library/user-event": "7.2.1",
     "autoprefixer": "9.8.0",
     "axios": "0.19.2",
+    "gh-pages": "^3.0.0",
     "postcss-cli": "7.1.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-scripts": "3.4.1",
     "tailwindcss": "1.4.6"
   },
+  "homepage": "http://ImraanMeyer.github.io/react-photo-search",
   "scripts": {
+    "predeploy": "npm run build:css && npm run build",
+    "deploy": "gh-pages -d build",
     "start": "npm run watch:css && react-scripts start",
     "build": "npm run build:css && react-scripts build",
     "test": "react-scripts test",
