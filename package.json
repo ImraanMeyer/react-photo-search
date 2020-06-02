@@ -17,7 +17,7 @@
   },
   "homepage": "http://ImraanMeyer.github.io/react-photo-search",
   "scripts": {
-    "predeploy": "npm run build:css && npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "npm run watch:css && react-scripts start",
     "build": "npm run build:css && react-scripts build",
